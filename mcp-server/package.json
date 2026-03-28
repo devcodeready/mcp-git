@@ -1,0 +1,16 @@
+{
+  "name": "mi-primer-mcp-server",
+  "version": "1.0.0",
+  "description": "Mi primer servidor MCP",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "simple-git": "^3.27.0",
+    "fs-extra": "^11.0.0"
+  }
+}
